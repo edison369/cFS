@@ -33,7 +33,7 @@
 [submodule "tools/cFS-GroundSystem"]
 	path = tools/cFS-GroundSystem
 	url = https://github.com/edison369/cFS-GroundSystem.git
-  	branch = main
+  	branch = rtems-cfs-project
 [submodule "tools/elf2cfetbl"]
 	path = tools/elf2cfetbl
 	url = https://github.com/nasa/elf2cfetbl.git
