@@ -42,3 +42,6 @@
 	path = tools/tblCRCTool
 	url = https://github.com/nasa/tblCRCTool.git
   	branch = main
+[submodule "apps/blinky"]
+	path = apps/blinky
+	url = https://github.com/edison369/cfs_blinky.git
