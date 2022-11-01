@@ -26,7 +26,8 @@
 # and uses the same warning options that are applied at the mission level.
 #
 add_compile_options(
-    -std=c99                    # Target the C99 standard (without gcc extensions)
+#    -std=c99                # Target the C99 standard (without gcc extensions) - having trouble with RTEMS network 
+                            # It seems that using this options removes access to gethostbyname and SO_DONTWAIT
     -pedantic                   # Issue all the warnings demanded by strict ISO C
     -Wall                       # Warn about most questionable operations
     -Wstrict-prototypes         # Warn about missing prototypes

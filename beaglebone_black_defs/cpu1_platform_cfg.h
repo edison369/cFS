@@ -1018,7 +1018,7 @@
 **       is limited by the maximum value allowed by the data type. In this case, the data
 **       type is an unsigned 32-bit integer, so the valid range is 0 to 0xFFFFFFFF.
 */
-#define CFE_PLATFORM_ES_PERF_CHILD_STACK_SIZE 4096
+#define CFE_PLATFORM_ES_PERF_CHILD_STACK_SIZE 16384
 
 /**
 **  \cfeescfg Define Performance Analyzer Child Task Delay
@@ -1059,7 +1059,7 @@
 **       task during operation. It is always a good idea to verify that no more than 1/2
 **       of the stack is used.
 */
-#define CFE_PLATFORM_ES_DEFAULT_STACK_SIZE 8192
+#define CFE_PLATFORM_ES_DEFAULT_STACK_SIZE 16384
 
 /**
 **  \cfeescfg Define EVS Task Priority
@@ -1172,8 +1172,8 @@
 **       is always a good idea to verify that no more than 1/2 of the stack is used.
 */
 #define CFE_PLATFORM_TIME_START_TASK_STACK_SIZE CFE_PLATFORM_ES_DEFAULT_STACK_SIZE
-#define CFE_PLATFORM_TIME_TONE_TASK_STACK_SIZE  4096
-#define CFE_PLATFORM_TIME_1HZ_TASK_STACK_SIZE   8192
+#define CFE_PLATFORM_TIME_TONE_TASK_STACK_SIZE  16384
+#define CFE_PLATFORM_TIME_1HZ_TASK_STACK_SIZE   16384
 
 /**
 **  \cfeescfg Define TBL Task Priority
