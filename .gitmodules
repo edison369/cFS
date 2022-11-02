@@ -45,3 +45,6 @@
 [submodule "apps/blinky"]
 	path = apps/blinky
 	url = https://github.com/edison369/cfs_blinky.git
+[submodule "apps/altitude"]
+	path = apps/altitude
+	url = https://github.com/edison369/cfs_altitude_app.git
