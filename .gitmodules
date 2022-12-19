@@ -48,3 +48,6 @@
 [submodule "apps/altitude"]
 	path = apps/altitude_app
 	url = https://github.com/edison369/cfs_altitude_app.git
+[submodule "tools/RF-TelemetrySystem"]
+	path = tools/RF-TelemetrySystem
+	url = https://github.com/edison369/RF-Telemetry-System.git
