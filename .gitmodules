@@ -51,3 +51,6 @@
 [submodule "tools/RF-TelemetrySystem"]
 	path = tools/RF-TelemetrySystem
 	url = https://github.com/edison369/RF-Telemetry-System.git
+[submodule "apps/rf_tlm"]
+	path = apps/rf_tlm
+	url = https://github.com/edison369/rf_tlm.git
