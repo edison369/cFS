@@ -54,3 +54,9 @@
 [submodule "apps/rf_tlm"]
 	path = apps/rf_tlm
 	url = https://github.com/edison369/rf_tlm.git
+[submodule "apps/temp_app"]
+	path = apps/temp_app
+	url = https://github.com/edison369/cfs_temperature_app.git
+[submodule "apps/imu_app"]
+	path = apps/imu_app
+	url = https://github.com/edison369/cfs_imu_app.git
