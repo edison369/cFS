@@ -60,3 +60,9 @@
 [submodule "apps/imu_app"]
 	path = apps/imu_app
 	url = https://github.com/edison369/cfs_imu_app.git
+[submodule "libs/mpu6050"]
+	path = libs/mpu6050
+	url = https://github.com/edison369/mpu6050_lib.git
+[submodule "libs/mpl3115a2"]
+	path = libs/mpl3115a2
+	url = https://github.com/edison369/mpl3115a2_lib.git
