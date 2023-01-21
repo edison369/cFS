@@ -1,7 +1,5 @@
-CFE_LIB, sample_lib,  SAMPLE_LIB_Init,    SAMPLE_LIB,    0,   0,     0x0, 0;
 CFE_LIB, mpl3115a2,   MPL3115A2_Init,     MPL3115A2,     0,   0,     0x0, 0;
 CFE_LIB, mpu6050,     MPU6050_Init,       MPU6050,       0,   0,     0x0, 0;
-CFE_APP, sample_app,  SAMPLE_APP_Main,    SAMPLE_APP,   50,   16384, 0x0, 0;
 CFE_APP, ci_lab,      CI_Lab_AppMain,     CI_LAB_APP,   60,   16384, 0x0, 0;
 CFE_APP, to_lab,      TO_LAB_AppMain,     TO_LAB_APP,   70,   16384, 0x0, 0;
 CFE_APP, sch_lab,     SCH_Lab_AppMain,    SCH_LAB_APP,  80,   16384, 0x0, 0;
@@ -37,3 +35,14 @@ CFE_APP, rf_tlm,      RF_TLM_Main,        RF_TLM,       90,   16384, 0x0, 0;
 ! 3. The filename field (2) no longer requires a fully-qualified filename; the path and extension
 !    may be omitted.  If omitted, the standard virtual path (/cf) and a platform-specific default
 !    extension will be used, which is derived from the build system.
+!
+!CFE_LIB, mpl3115a2,   MPL3115A2_Init,     MPL3115A2,     0,   0,     0x0, 0;
+!CFE_LIB, mpu6050,     MPU6050_Init,       MPU6050,       0,   0,     0x0, 0;
+!CFE_APP, ci_lab,      CI_Lab_AppMain,     CI_LAB_APP,   60,   16384, 0x0, 0;
+!CFE_APP, to_lab,      TO_LAB_AppMain,     TO_LAB_APP,   70,   16384, 0x0, 0;
+!CFE_APP, sch_lab,     SCH_Lab_AppMain,    SCH_LAB_APP,  80,   16384, 0x0, 0;
+!CFE_APP, blinky,      BLINKY_Main,        BLINKY_APP,   90,   16384, 0x0, 0;
+!CFE_APP, imu_app,     IMU_APP_Main,       IMU_APP,      90,   16384, 0x0, 0;
+!CFE_APP, temp_app,    TEMP_APP_Main,      TEMP_APP,     90,   16384, 0x0, 0;
+!CFE_APP, altitude_app,ALTITUDE_APP_Main,  ALTITUDE_APP, 90,   16384, 0x0, 0;
+!CFE_APP, rf_tlm,      RF_TLM_Main,        RF_TLM,       90,   16384, 0x0, 0;
