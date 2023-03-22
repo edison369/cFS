@@ -66,3 +66,6 @@
 [submodule "libs/mpl3115a2"]
 	path = libs/mpl3115a2
 	url = https://github.com/edison369/mpl3115a2_lib.git
+[submodule "apps/gps_app"]
+	path = apps/gps_app
+	url = https://github.com/edison369/gps_app.git
