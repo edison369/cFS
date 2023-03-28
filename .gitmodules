@@ -68,4 +68,4 @@
 	url = https://github.com/edison369/mpl3115a2_lib.git
 [submodule "apps/gps_app"]
 	path = apps/gps_app
-	url = https://github.com/edison369/gps_app.git
+	url = https://github.com/edison369/cfs_gps_app.git
